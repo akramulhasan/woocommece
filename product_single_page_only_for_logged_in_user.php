@@ -19,4 +19,4 @@ function wpfy_access_product_to_member_only(){
 	}
 
 }
-add_action(template_redirect,wpfy_access_product_to_member_only);
+add_action('template_redirect','wpfy_access_product_to_member_only');
